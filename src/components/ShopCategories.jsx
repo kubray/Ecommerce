@@ -10,7 +10,6 @@ const ShopCategories = () => {
             title={cat.title} 
             items={cat.items}
             image={cat.image}/>
-
         ))}
     </div>
         

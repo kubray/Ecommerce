@@ -23,7 +23,7 @@ const categories = [
     image: category3,
   },
   {
-    title: 'ACCESSORIES',
+    title: 'OUTWEAR',
     items: 4,
     image: category4,
   },

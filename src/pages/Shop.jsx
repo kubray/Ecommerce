@@ -1,10 +1,10 @@
 import { Link} from 'react-router-dom';
 import ShopCategories from '../components/ShopCategories';
 
+
 function Shop() {
   return (
-    <div>
-      
+    <div>     
       <div className="w-full max-w-[1440px] mx-auto px-4 flex flex-col lg:flex-row h-[92px] bg-[#FAFAFA] pt-[24px] pb-[24px]">
         <div className="h-[44px] w-full max-w-[1049px] mx-auto flex items-center">
           <div className="w-full md:w-1/2">
@@ -23,9 +23,17 @@ function Shop() {
             <ShopCategories />
         </div>
       </div>
+      <div className='w-full max-w-[1440px] mx-auto px-4 h-auto h-[1778px] border border-red-500'>
+        <div className='container w-full max-w-[1124px] h-auto h-[1778px] border border-red-500 px-4 mx-auto '>
+          <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4'>     
+          </div>
+        </div>
+      </div>
+      
+
+      
     </div>
+
   );
 }
-
-
 export default Shop;
